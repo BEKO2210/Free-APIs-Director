@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchAPIs = async () => {
       try {
-        const response = await fetch('https://free-apis-director.onrender.com');
+        const response = await fetch('https://free-apis-director.onrender.com/api/apis');
         if (!response.ok) {
           throw new Error('Failed to fetch APIs');
         }
