@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 1,
+    "name": "AdoptAPet",
+    "description": "Resource to help get pets adopted",
+    "category": "Animals",
+    "auth": "API Key",
+    "url": "https://www.adoptapet.com/public/apis/pet_list.html"
+  },
+  {
+    "id": 2,
+    "name": "Axolotl",
+    "description": "Collection of axolotl pictures and facts",
+    "category": "Animals",
+    "auth": "No",
+    "url": "https://theaxolotlapi.netlify.app/"
+  },
+  {
+    "id": 3,
+    "name": "Cat Facts",
+    "description": "Daily cat facts",
+    "category": "Animals",
+    "auth": "No",
+    "url": "https://alexwohlbruck.github.io/cat-facts/"
+  },
+  {
+    "id": 4,
+    "name": "Cataas",
+    "description": "Cat as a service (cats pictures and gifs)",
+    "category": "Animals",
+    "auth": "No",
+    "url": "https://cataas.com/"
+  },
+  {
+    "id": 5,
+    "name": "Dogs",
+    "description": "Based on the Stanford Dogs Dataset",
+    "category": "Animals",
+    "auth": "No",
+    "url": "https://dog.ceo/dog-api/"
+  },
+  {
+    "id": 6,
+    "name": "FishWatch",
+    "description": "Information and pictures about individual fish species",
+    "category": "Animals",
+    "auth": "No",
+    "url": "https://www.fishwatch.gov/developers"
+  },
+  {
+    "id": 7,
+    "name": "AniAPI",
+    "description": "Anime discovery, streaming & syncing with trackers",
+    "category": "Anime",
+    "auth": "OAuth",
+    "url": "https://aniapi.com/docs/"
+  },
+  {
+    "id": 8,
+    "name": "AniList",
+    "description": "Anime discovery & tracking",
+    "category": "Anime",
+    "auth": "OAuth",
+    "url": "https://github.com/AniList/ApiV2-GraphQL-Docs"
+  },
+  {
+    "id": 9,
+    "name": "AnimeChan",
+    "description": "Anime quotes (over 10k+)",
+    "category": "Anime",
+    "auth": "No",
+    "url": "https://github.com/RocktimSaikia/anime-chan"
+  },
+  {
+    "id": 10,
+    "name": "Jikan",
+    "description": "Unofficial MyAnimeList API",
+    "category": "Anime",
+    "auth": "No",
+    "url": "https://jikan.moe"
+  },
+  {
+    "id": 11,
+    "name": "Studio Ghibli",
+    "description": "Resources from Studio Ghibli films",
+    "category": "Anime",
+    "auth": "No",
+    "url": "https://ghibliapi.herokuapp.com"
+  },
+  {
+    "id": 12,
+    "name": "AbuseIPDB",
+    "description": "IP/domain/URL reputation",
+    "category": "Anti-Malware",
+    "auth": "API Key",
+    "url": "https://docs.abuseipdb.com/"
+  },
+  {
+    "id": 13,
+    "name": "Google Safe Browsing",
+    "description": "Google Link/Domain Flagging",
+    "category": "Anti-Malware",
+    "auth": "API Key",
+    "url": "https://developers.google.com/safe-browsing/"
+  },
+  {
+    "id": 14,
+    "name": "VirusTotal",
+    "description": "VirusTotal File/URL Analysis",
+    "category": "Anti-Malware",
+    "auth": "API Key",
+    "url": "https://www.virustotal.com/en/documentation/public-api/"
+  },
+  {
+    "id": 15,
+    "name": "Art Institute of Chicago",
+    "description": "Art",
+    "category": "Art & Design",
+    "auth": "No",
+    "url": "https://api.artic.edu/docs/"
+  },
+  {
+    "id": 16,
+    "name": "Dribbble",
+    "description": "Discover the world's top designers & creatives",
+    "category": "Art & Design",
+    "auth": "OAuth",
+    "url": "https://developer.dribbble.com"
+  },
+  {
+    "id": 17,
+    "name": "Iconfinder",
+    "description": "Icons",
+    "category": "Art & Design",
+    "auth": "API Key",
+    "url": "https://developer.iconfinder.com"
+  },
+  {
+    "id": 18,
+    "name": "Metropolitan Museum of Art",
+    "description": "Met Museum of Art",
+    "category": "Art & Design",
+    "auth": "No",
+    "url": "https://metmuseum.github.io/"
+  },
+  {
+    "id": 19,
+    "name": "Auth0",
+    "description": "Easy to implement, adaptable authentication and authorization platform",
+    "category": "Authentication",
+    "auth": "API Key",
+    "url": "https://auth0.com"
+  },
+  {
+    "id": 20,
+    "name": "MojoAuth",
+    "description": "Secure and modern passwordless authentication platform",
+    "category": "Authentication",
+    "auth": "API Key",
+    "url": "https://mojoauth.com"
+  },
+  {
+    "id": 21,
+    "name": "Warrant",
+    "description": "APIs for authorization and access control",
+    "category": "Authentication",
+    "auth": "API Key",
+    "url": "https://warrant.dev/"
+  },
+  {
+    "id": 22,
+    "name": "Etherscan",
+    "description": "Ethereum explorer API",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "url": "https://etherscan.io/apis"
+  },
+  {
+    "id": 23,
+    "name": "The Graph",
+    "description": "Indexing protocol for querying networks like Ethereum with GraphQL",
+    "category": "Blockchain",
+    "auth": "API Key",
+    "url": "https://thegraph.com"
+  },
+  {
+    "id": 24,
+    "name": "A Bíblia Digital",
+    "description": "Manage multiple versions of the Bible",
+    "category": "Books",
+    "auth": "API Key",
+    "url": "https://www.abibliadigital.com.br/en"
+  },
+  {
+    "id": 25,
+    "name": "Bible-api",
+    "description": "Free Bible API with multiple languages",
+    "category": "Books",
+    "auth": "No",
+    "url": "https://bible-api.com/"
+  },
+  {
+    "id": 26,
+    "name": "Google Books",
+    "description": "Books",
+    "category": "Books",
+    "auth": "OAuth",
+    "url": "https://developers.google.com/books/"
+  },
+  {
+    "id": 27,
+    "name": "Open Library",
+    "description": "Books, book covers and related data",
+    "category": "Books",
+    "auth": "No",
+    "url": "https://openlibrary.org/developers/api"
+  },
+  {
+    "id": 28,
+    "name": "Quran Cloud",
+    "description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran",
+    "category": "Books",
+    "auth": "No",
+    "url": "https://alquran.cloud/api"
+  },
+  {
+    "id": 29,
+    "name": "Charity Search",
+    "description": "Non-profit charity data",
+    "category": "Business",
+    "auth": "API Key",
+    "url": "http://charityapi.orghunter.com/"
+  },
+  {
+    "id": 30,
+    "name": "Gmail",
+    "description": "Flexible, RESTful access to the user's inbox",
+    "category": "Business",
+    "auth": "OAuth",
+    "url": "https://developers.google.com/gmail/api/"
+  },
+  {
+    "id": 31,
+    "name": "Mailchimp",
+    "description": "Send marketing campaigns and transactional mails",
+    "category": "Business",
+    "auth": "API Key",
+    "url": "https://mailchimp.com/developer/"
+  },
+  {
+    "id": 32,
+    "name": "Square",
+    "description": "Easy way to take payments, manage refunds, and help customers checkout online",
+    "category": "Business",
+    "auth": "OAuth",
+    "url": "https://developer.squareup.com/reference/square"
+  },
+  {
+    "id": 33,
+    "name": "Trello",
+    "description": "Boards, lists and cards to help you organize and prioritize your projects",
+    "category": "Business",
+    "auth": "OAuth",
+    "url": "https://developers.trello.com/"
+  },
+  {
+    "id": 34,
+    "name": "Calendarific",
+    "description": "Worldwide Holidays",
+    "category": "Calendar",
+    "auth": "API Key",
+    "url": "https://calendarific.com/"
+  },
+  {
+    "id": 35,
+    "name": "Google Calendar",
+    "description": "Display, create and modify Google calendar events",
+    "category": "Calendar",
+    "auth": "OAuth",
+    "url": "https://developers.google.com/google-apps/calendar/"
+  },
+  {
+    "id": 36,
+    "name": "Holidays",
+    "description": "Historical data regarding holidays",
+    "category": "Calendar",
+    "auth": "API Key",
+    "url": "https://holidayapi.com/"
+  },
+  {
+    "id": 37,
+    "name": "Nager.Date",
+    "description": "Public holidays for more than 90 countries",
+    "category": "Calendar",
+    "auth": "No",
+    "url": "https://date.nager.at"
+  },
+  {
+    "id": 38,
+    "name": "Box",
+    "description": "File Sharing and Storage",
+    "category": "Cloud Storage",
+    "auth": "OAuth",
+    "url": "https://developer.box.com/"
+  },
+  {
+    "id": 39,
+    "name": "Dropbox",
+    "description": "File Sharing and Storage",
+    "category": "Cloud Storage",
+    "auth": "OAuth",
+    "url": "https://www.dropbox.com/developers"
+  },
+  {
+    "id": 40,
+    "name": "Google Drive",
+    "description": "File Sharing and Storage",
+    "category": "Cloud Storage",
+    "auth": "OAuth",
+    "url": "https://developers.google.com/drive/"
+  },
+  {
+    "id": 41,
+    "name": "OneDrive",
+    "description": "File Sharing and Storage",
+    "category": "Cloud Storage",
+    "auth": "OAuth",
+    "url": "https://developer.microsoft.com/onedrive"
+  },
+  {
+    "id": 42,
+    "name": "CircleCI",
+    "description": "Automate the software development process using continuous integration and continuous delivery",
+    "category": "Continuous Integration",
+    "auth": "API Key",
+    "url": "https://circleci.com/docs/api/v1-reference/"
+  },
+  {
+    "id": 43,
+    "name": "Travis CI",
+    "description": "Sync your GitHub projects with Travis CI to test your code in minutes",
+    "category": "Continuous Integration",
+    "auth": "API Key",
+    "url": "https://docs.travis-ci.com/api/"
+  },
+  {
+    "id": 44,
+    "name": "Binance",
+    "description": "Exchange for Trading Cryptocurrencies based in China",
+    "category": "Cryptocurrency",
+    "auth": "API Key",
+    "url": "https://github.com/binance/binance-spot-api-docs"
+  },
+  {
+    "id": 45,
+    "name": "Coinbase",
+    "description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices",
+    "category": "Cryptocurrency",
+    "auth": "API Key",
+    "url": "https://developers.coinbase.com"
+  },
+  {
+    "id": 46,
+    "name": "CoinGecko",
+    "description": "Cryptocurrency Price, Market, and Developer/Social Data",
+    "category": "Cryptocurrency",
+    "auth": "No",
+    "url": "http://www.coingecko.com/api"
+  },
+  {
+    "id": 47,
+    "name": "CoinMarketCap",
+    "description": "Cryptocurrencies Prices",
+    "category": "Cryptocurrency",
+    "auth": "API Key",
+    "url": "https://coinmarketcap.com/api/"
+  },
+  {
+    "id": 48,
+    "name": "Kraken",
+    "description": "Cryptocurrencies Exchange",
+    "category": "Cryptocurrency",
+    "auth": "API Key",
+    "url": "https://docs.kraken.com/rest/"
+  },
+  {
+    "id": 49,
+    "name": "Amdoren",
+    "description": "Free currency API with over 150 currencies",
+    "category": "Currency Exchange",
+    "auth": "API Key",
+    "url": "https://www.amdoren.com/currency-api/"
+  },
+  {
+    "id": 50,
+    "name": "Currencylayer",
+    "description": "Exchange rates and currency conversion",
+    "category": "Currency Exchange",
+    "auth": "API Key",
+    "url": "https://currencylayer.com/documentation"
+  },
+  {
+    "id": 51,
+    "name": "ExchangeRate-API",
+    "description": "Free currency conversion",
+    "category": "Currency Exchange",
+    "auth": "API Key",
+    "url": "https://www.exchangerate-api.com"
+  },
+  {
+    "id": 52,
+    "name": "Frankfurter",
+    "description": "Exchange rates, currency conversion and time series",
+    "category": "Currency Exchange",
+    "auth": "No",
+    "url": "https://www.frankfurter.app/docs"
+  },
+  {
+    "id": 53,
+    "name": "US Address Verification",
+    "description": "US Address Verification",
+    "category": "Data Validation",
+    "auth": "API Key",
+    "url": "https://lob.com/"
+  },
+  {
+    "id": 54,
+    "name": "Agify.io",
+    "description": "Estimates the age from a first name",
+    "category": "Development",
+    "auth": "No",
+    "url": "https://agify.io"
+  },
+  {
+    "id": 55,
+    "name": "GitHub",
+    "description": "Make use of GitHub repositories, code and user info programmatically",
+    "category": "Development",
+    "auth": "OAuth",
+    "url": "https://docs.github.com/en/free-pro-team@latest/rest"
+  },
+  {
+    "id": 56,
+    "name": "Google Firebase",
+    "description": "Google's mobile application development platform that helps build, improve, and grow app",
+    "category": "Development",
+    "auth": "API Key",
+    "url": "https://firebase.google.com/docs"
+  },
+  {
+    "id": 57,
+    "name": "Httpbin",
+    "description": "A Simple HTTP Request & Response Service",
+    "category": "Development",
+    "auth": "No",
+    "url": "https://httpbin.org/"
+  },
+  {
+    "id": 58,
+    "name": "IPify",
+    "description": "A simple IP Address API",
+    "category": "Development",
+    "auth": "No",
+    "url": "https://www.ipify.org/"
+  },
+  {
+    "id": 59,
+    "name": "JSONPlaceholder",
+    "description": "Free fake REST API for testing and prototyping",
+    "category": "Development",
+    "auth": "No",
+    "url": "https://jsonplaceholder.typicode.com"
+  },
+  {
+    "id": 60,
+    "name": "Postman",
+    "description": "Tool for testing APIs",
+    "category": "Development",
+    "auth": "API Key",
+    "url": "https://www.postman.com/"
+  },
+  {
+    "id": 61,
+    "name": "Random User Generator",
+    "description": "Generate random user data",
+    "category": "Development",
+    "auth": "No",
+    "url": "https://randomuser.me"
+  },
+  {
+    "id": 62,
+    "name": "Free Dictionary",
+    "description": "Definitions, phonetics, pronounciations, parts of speech, examples, synonyms",
+    "category": "Dictionaries",
+    "auth": "No",
+    "url": "https://dictionaryapi.dev/"
+  },
+  {
+    "id": 63,
+    "name": "Merriam-Webster",
+    "description": "Dictionary and Thesaurus Data",
+    "category": "Dictionaries",
+    "auth": "API Key",
+    "url": "https://dictionaryapi.com/"
+  },
+  {
+    "id": 64,
+    "name": "Oxford",
+    "description": "Dictionary Data",
+    "category": "Dictionaries",
+    "auth": "API Key",
+    "url": "https://developer.oxforddictionaries.com/"
+  },
+  {
+    "id": 65,
+    "name": "Airtable",
+    "description": "Integrate with Airtable",
+    "category": "Productivity",
+    "auth": "API Key",
+    "url": "https://airtable.com/api"
+  },
+  {
+    "id": 66,
+    "name": "Asana",
+    "description": "Programmatic access to all data in your asana system",
+    "category": "Productivity",
+    "auth": "API Key",
+    "url": "https://developers.asana.com/docs"
+  },
+  {
+    "id": 67,
+    "name": "Notion",
+    "description": "Integrate with Notion",
+    "category": "Productivity",
+    "auth": "OAuth",
+    "url": "https://developers.notion.com/docs/getting-started"
+  },
+  {
+    "id": 68,
+    "name": "Todoist",
+    "description": "Todo Lists",
+    "category": "Productivity",
+    "auth": "OAuth",
+    "url": "https://developer.todoist.com"
+  },
+  {
+    "id": 69,
+    "name": "Email Validation",
+    "description": "Validate email addresses for deliverability and spam",
+    "category": "Email",
+    "auth": "API Key",
+    "url": "https://www.abstractapi.com/email-verification-validation-api"
+  },
+  {
+    "id": 70,
+    "name": "Guerrilla Mail",
+    "description": "Disposable temporary Email addresses",
+    "category": "Email",
+    "auth": "No",
+    "url": "https://www.guerrillamail.com/GuerrillaMailAPI.html"
+  },
+  {
+    "id": 71,
+    "name": "Sendgrid",
+    "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+    "category": "Email",
+    "auth": "API Key",
+    "url": "https://docs.sendgrid.com/api-reference/"
+  },
+  {
+    "id": 72,
+    "name": "chucknorris.io",
+    "description": "JSON API for hand curated Chuck Norris jokes",
+    "category": "Entertainment",
+    "auth": "No",
+    "url": "https://api.chucknorris.io"
+  },
+  {
+    "id": 73,
+    "name": "Imgflip",
+    "description": "Gets an array of popular memes",
+    "category": "Entertainment",
+    "auth": "No",
+    "url": "https://imgflip.com/api"
+  },
+  {
+    "id": 74,
+    "name": "JokeAPI",
+    "description": "Get random jokes in various categories",
+    "category": "Entertainment",
+    "auth": "No",
+    "url": "https://jokeapi.dev"
+  },
+  {
+    "id": 75,
+    "name": "Random Useless Facts",
+    "description": "Get useless, but true facts",
+    "category": "Entertainment",
+    "auth": "No",
+    "url": "https://uselessfacts.jsph.pl/"
+  },
+  {
+    "id": 76,
+    "name": "The Movie Database",
+    "description": "Access movie and TV show data",
+    "category": "Entertainment",
+    "auth": "API Key",
+    "url": "https://www.themoviedb.org/documentation/api"
+  },
+  {
+    "id": 77,
+    "name": "Carbon Interface",
+    "description": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
+    "category": "Environment",
+    "auth": "API Key",
+    "url": "https://docs.carboninterface.com/"
+  },
+  {
+    "id": 78,
+    "name": "OpenAQ",
+    "description": "Open air quality data",
+    "category": "Environment",
+    "auth": "API Key",
+    "url": "https://docs.openaq.org/"
+  },
+  {
+    "id": 79,
+    "name": "UK Carbon Intensity",
+    "description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+    "category": "Environment",
+    "auth": "No",
+    "url": "https://carbon-intensity.github.io/api-definitions/"
+  },
+  {
+    "id": 80,
+    "name": "Eventbrite",
+    "description": "Find events",
+    "category": "Events",
+    "auth": "OAuth",
+    "url": "https://www.eventbrite.com/platform/api/"
+  },
+  {
+    "id": 81,
+    "name": "SeatGeek",
+    "description": "Search events, venues and performers",
+    "category": "Events",
+    "auth": "API Key",
+    "url": "https://platform.seatgeek.com/"
+  },
+  {
+    "id": 82,
+    "name": "Ticketmaster",
+    "description": "Search events, attractions, or venues",
+    "category": "Events",
+    "auth": "API Key",
+    "url": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"
+  },
+  {
+    "id": 83,
+    "name": "Alpha Vantage",
+    "description": "Realtime and historical stock data",
+    "category": "Finance",
+    "auth": "API Key",
+    "url": "https://www.alphavantage.co/"
+  },
+  {
+    "id": 84,
+    "name": "Coinbase Pro",
+    "description": "Cryptocurrency Trading Platform",
+    "category": "Finance",
+    "auth": "API Key",
+    "url": "https://docs.pro.coinbase.com/"
+  },
+  {
+    "id": 85,
+    "name": "Financial Modeling Prep",
+    "description": "Realtime and historical stock data",
+    "category": "Finance",
+    "auth": "API Key",
+    "url": "https://site.financialmodelingprep.com/developer/docs"
+  },
+  {
+    "id": 86,
+    "name": "Finnhub",
+    "description": "Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto",
+    "category": "Finance",
+    "auth": "API Key",
+    "url": "https://finnhub.io/docs/api"
+  },
+  {
+    "id": 87,
+    "name": "FRED",
+    "description": "Economic data from the Federal Reserve Bank of St. Louis",
+    "category": "Finance",
+    "auth": "API Key",
+    "url": "https://fred.stlouisfed.org/docs/api/fred/"
+  },
+  {
+    "id": 88,
+    "name": "Open Brewery DB",
+    "description": "Breweries, Cideries and Craft Beer Bottle Shops",
+    "category": "Food & Drink",
+    "auth": "No",
+    "url": "https://www.openbrewerydb.org"
+  },
+  {
+    "id": 89,
+    "name": "Open Food Facts",
+    "description": "Food Products Database",
+    "category": "Food & Drink",
+    "auth": "No",
+    "url": "https://world.openfoodfacts.org/data"
+  },
+  {
+    "id": 90,
+    "name": "Spoonacular",
+    "description": "Recipes, Food Products, and Meal Planning",
+    "category": "Food & Drink",
+    "auth": "API Key",
+    "url": "https://spoonacular.com/food-api"
+  },
+  {
+    "id": 91,
+    "name": "TheCocktailDB",
+    "description": "Cocktail Recipes",
+    "category": "Food & Drink",
+    "auth": "API Key",
+    "url": "https://www.thecocktaildb.com/api.php"
+  },
+  {
+    "id": 92,
+    "name": "TheMealDB",
+    "description": "Meal Recipes",
+    "category": "Food & Drink",
+    "auth": "API Key",
+    "url": "https://www.themealdb.com/api.php"
+  },
+  {
+    "id": 93,
+    "name": "PokeAPI",
+    "description": "Pokemon Information",
+    "category": "Games & Comics",
+    "auth": "No",
+    "url": "https://pokeapi.co"
+  },
+  {
+    "id": 94,
+    "name": "Rick and Morty",
+    "description": "All the Rick and Morty information, including images",
+    "category": "Games & Comics",
+    "auth": "No",
+    "url": "https://rickandmortyapi.com"
+  },
+  {
+    "id": 95,
+    "name": "SuperHeroes",
+    "description": "All SuperHeroes and Villains data from all universes under a single API",
+    "category": "Games & Comics",
+    "auth": "API Key",
+    "url": "https://superheroapi.com"
+  },
+  {
+    "id": 96,
+    "name": "Geoapify",
+    "description": "Forward and reverse geocoding, address autocomplete",
+    "category": "Geocoding",
+    "auth": "API Key",
+    "url": "https://www.geoapify.com/api/geocoding-api/"
+  },
+  {
+    "id": 97,
+    "name": "Google Maps",
+    "description": "Create/customize digital maps based on Google Maps data",
+    "category": "Geocoding",
+    "auth": "API Key",
+    "url": "https://developers.google.com/maps/"
+  },
+  {
+    "id": 98,
+    "name": "LocationIQ",
+    "description": "Provides forward/reverse geocoding and batch geocoding",
+    "category": "Geocoding",
+    "auth": "API Key",
+    "url": "https://locationiq.org/docs/"
+  },
+  {
+    "id": 99,
+    "name": "Nominatim",
+    "description": "Provides worldwide forward / reverse geocoding",
+    "category": "Geocoding",
+    "auth": "No",
+    "url": "https://nominatim.org/release-docs/latest/api/Overview/"
+  },
+  {
+    "id": 100,
+    "name": "OpenCage",
+    "description": "Forward and reverse geocoding using open data",
+    "category": "Geocoding",
+    "auth": "API Key",
+    "url": "https://opencagedata.com"
+  },
+  {
+    "id": 101,
+    "name": "REST Countries",
+    "description": "Get information about countries via a RESTful API",
+    "category": "Geocoding",
+    "auth": "No",
+    "url": "https://restcountries.com"
+  },
+  {
+    "id": 102,
+    "name": "TomTom",
+    "description": "Maps, Directions, Places and Traffic APIs",
+    "category": "Geocoding",
+    "auth": "API Key",
+    "url": "https://developer.tomtom.com/"
+  },
+  {
+    "id": 103,
+    "name": "Healthcare.gov",
+    "description": "Educational content about the US Health Insurance Marketplace",
+    "category": "Health",
+    "auth": "No",
+    "url": "https://www.healthcare.gov/developers/"
+  },
+  {
+    "id": 104,
+    "name": "Makeup",
+    "description": "Makeup Information",
+    "category": "Health",
+    "auth": "No",
+    "url": "http://makeup-api.herokuapp.com/"
+  },
+  {
+    "id": 105,
+    "name": "Adzuna",
+    "description": "Job board aggregator",
+    "category": "Jobs",
+    "auth": "API Key",
+    "url": "https://developer.adzuna.com/overview"
+  },
+  {
+    "id": 106,
+    "name": "The Muse",
+    "description": "Job board and company profiles",
+    "category": "Jobs",
+    "auth": "API Key",
+    "url": "https://www.themuse.com/developers/api/v2"
+  },
+  {
+    "id": 107,
+    "name": "Lyrics.ovh",
+    "description": "Simple API to retrieve the lyrics of a song",
+    "category": "Music",
+    "auth": "No",
+    "url": "http://docs.lyricsovh.apiary.io"
+  },
+  {
+    "id": 108,
+    "name": "MusicBrainz",
+    "description": "Music metadata",
+    "category": "Music",
+    "auth": "No",
+    "url": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2"
+  },
+  {
+    "id": 109,
+    "name": "Spotify",
+    "description": "Access Spotify catalog data",
+    "category": "Music",
+    "auth": "OAuth",
+    "url": "https://developer.spotify.com/documentation/web-api/"
+  },
+  {
+    "id": 110,
+    "name": "NASA",
+    "description": "NASA data, including imagery",
+    "category": "Science",
+    "auth": "API Key",
+    "url": "https://api.nasa.gov"
+  },
+  {
+    "id": 111,
+    "name": "Open Notify",
+    "description": "ISS astronauts, current location, etc",
+    "category": "Science",
+    "auth": "No",
+    "url": "http://open-notify.org/Open-Notify-API/"
+  },
+  {
+    "id": 112,
+    "name": "USGS Earthquake Hazards Program",
+    "description": "Earthquake data",
+    "category": "Science",
+    "auth": "No",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/"
+  },
+  {
+    "id": 113,
+    "name": "News API",
+    "description": "Locate articles and breaking news headlines from news sources and blogs",
+    "category": "News",
+    "auth": "API Key",
+    "url": "https://newsapi.org"
+  },
+  {
+    "id": 114,
+    "name": "The Guardian",
+    "description": "Access all the content the Guardian creates",
+    "category": "News",
+    "auth": "API Key",
+    "url": "https://open-platform.theguardian.com/"
+  },
+  {
+    "id": 115,
+    "name": "Pexels",
+    "description": "Free stock photos and videos",
+    "category": "Photography",
+    "auth": "API Key",
+    "url": "https://www.pexels.com/api/"
+  },
+  {
+    "id": 116,
+    "name": "Pixabay",
+    "description": "Photography",
+    "category": "Photography",
+    "auth": "API Key",
+    "url": "https://pixabay.com/api/docs/"
+  },
+  {
+    "id": 117,
+    "name": "Unsplash",
+    "description": "Photography",
+    "category": "Photography",
+    "auth": "OAuth",
+    "url": "https://unsplash.com/developers"
+  },
+  {
+    "id": 118,
+    "name": "API-Football",
+    "description": "Football data",
+    "category": "Sports",
+    "auth": "API Key",
+    "url": "https://www.api-football.com/"
+  },
+  {
+    "id": 119,
+    "name": "NBA API",
+    "description": "NBA stats",
+    "category": "Sports",
+    "auth": "No",
+    "url": "https://github.com/swar/nba_api"
+  },
+  {
+    "id": 120,
+    "name": "TheSportsDB",
+    "description": "Sports data",
+    "category": "Sports",
+    "auth": "API Key",
+    "url": "https://www.thesportsdb.com/api.php"
+  },
+  {
+    "id": 121,
+    "name": "AviationStack",
+    "description": "Real-time Flight Status & Global Aviation Data",
+    "category": "Transportation",
+    "auth": "API Key",
+    "url": "https://aviationstack.com/"
+  },
+  {
+    "id": 122,
+    "name": "Transport for London",
+    "description": "TfL API",
+    "category": "Transportation",
+    "auth": "API Key",
+    "url": "https://api.tfl.gov.uk"
+  },
+  {
+    "id": 123,
+    "name": "Video Converter",
+    "description": "Convert video files from one format to another",
+    "category": "Video",
+    "auth": "API Key",
+    "url": "https://cloudconvert.com/api/v2"
+  },
+  {
+    "id": 124,
+    "name": "Open-Meteo",
+    "description": "Global weather forecast API for non-commercial use",
+    "category": "Weather",
+    "auth": "No",
+    "url": "https://open-meteo.com/"
+  },
+  {
+    "id": 125,
+    "name": "OpenWeatherMap",
+    "description": "Weather data for any location",
+    "category": "Weather",
+    "auth": "API Key",
+    "url": "https://openweathermap.org/api"
+  },
+  {
+    "id": 126,
+    "name": "WeatherAPI",
+    "description": "Weather API with Forecast, Sports, Astronomy and Geolocation data",
+    "category": "Weather",
+    "auth": "API Key",
+    "url": "https://www.weatherapi.com/"
+  }
+]
