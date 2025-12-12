@@ -1,6 +1,6 @@
 # 🌍 Live API-Dokumentation
 
-# 👉 [https://<sitename>.netlify.app/](https://apiadresse.netlify.app/)
+## 👉 [https://<sitename>.netlify.app/](https://apiadresse.netlify.app/)
 
 ## Free APIs Directory
 
