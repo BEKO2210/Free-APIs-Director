@@ -1,6 +1,9 @@
 // Main Application Component - React + Tailwind
 import { useState, useEffect, useMemo } from 'react';
 
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+const API_ENDPOINT = `${API_BASE_URL}/api/apis`;
+
 function App() {
   // State Management
   const [apis, setApis] = useState([]);
@@ -11,40 +14,55 @@ function App() {
 
   // API-Daten beim Laden abrufen
   useEffect(() => {
+    const controller = new AbortController();
+
     const fetchAPIs = async () => {
       try {
-        const response = await fetch('https://free-apis-director.onrender.com/api/apis');
+        const response = await fetch(API_ENDPOINT, { signal: controller.signal });
         if (!response.ok) {
-          throw new Error('Failed to fetch APIs');
+          throw new Error(`Failed to fetch APIs (HTTP ${response.status})`);
         }
+
         const result = await response.json();
+        if (!Array.isArray(result?.data)) {
+          throw new Error('Invalid API response format');
+        }
+
         setApis(result.data);
       } catch (err) {
-        setError(err.message);
+        if (err.name !== 'AbortError') {
+          setError(err.message);
+        }
       } finally {
         setLoading(false);
       }
     };
 
     fetchAPIs();
+
+    return () => controller.abort();
   }, []);
 
   // Einzigartige Kategorien extrahieren
   const categories = useMemo(() => {
-    const uniqueCategories = [...new Set(apis.map(api => api.category))];
+    const uniqueCategories = [...new Set(apis.map((api) => api.category).filter(Boolean))];
     return ['All', ...uniqueCategories.sort()];
   }, [apis]);
 
   // Debounced Search + Filter Logic
   const filteredAPIs = useMemo(() => {
-    return apis.filter(api => {
+    const normalizedSearch = searchTerm.trim().toLowerCase();
+
+    return apis.filter((api) => {
       // Category Filter
       const matchesCategory = selectedCategory === 'All' || api.category === selectedCategory;
 
       // Search Filter (name + description)
-      const matchesSearch = searchTerm === '' ||
-        api.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        api.description.toLowerCase().includes(searchTerm.toLowerCase());
+      const name = api.name?.toLowerCase() || '';
+      const description = api.description?.toLowerCase() || '';
+      const matchesSearch = normalizedSearch === ''
+        || name.includes(normalizedSearch)
+        || description.includes(normalizedSearch);
 
       return matchesCategory && matchesSearch;
     });
@@ -54,6 +72,7 @@ function App() {
   const getAuthBadgeColor = (auth) => {
     switch (auth) {
       case 'No':
+      case 'No Auth':
         return 'bg-green-100 text-green-800';
       case 'API Key':
         return 'bg-blue-100 text-blue-800';
@@ -84,7 +103,9 @@ function App() {
           <div className="text-red-600 text-5xl mb-4">⚠️</div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Error</h2>
           <p className="text-gray-600">{error}</p>
-          <p className="text-sm text-gray-500 mt-4">Make sure the backend server is running on port 3001</p>
+          <p className="text-sm text-gray-500 mt-4">
+            Set <code>VITE_API_BASE_URL</code> for hosted backend URLs, or use local proxy in development.
+          </p>
         </div>
       </div>
     );
@@ -133,7 +154,7 @@ function App() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap gap-2 justify-center">
-            {categories.map(category => (
+            {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
@@ -169,7 +190,7 @@ function App() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredAPIs.map(api => (
+            {filteredAPIs.map((api) => (
               <div
                 key={api.id}
                 className="bg-white rounded-xl shadow-md overflow-hidden api-card border border-gray-100"
@@ -181,20 +202,20 @@ function App() {
                       {api.name}
                     </h3>
                     <span className={`badge ${getAuthBadgeColor(api.auth)} ml-2 flex-shrink-0`}>
-                      {api.auth}
+                      {api.auth || 'Unknown'}
                     </span>
                   </div>
 
                   {/* Category Badge */}
                   <div className="mb-3">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-gray-100 text-gray-700">
-                      {api.category}
+                      {api.category || 'Uncategorized'}
                     </span>
                   </div>
 
                   {/* Description */}
                   <p className="text-gray-600 text-sm mb-4 line-clamp-3">
-                    {api.description}
+                    {api.description || 'No description provided.'}
                   </p>
 
                   {/* Link */}

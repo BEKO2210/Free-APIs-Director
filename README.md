@@ -1,6 +1,6 @@
 # 🌍 Live API-Dokumentation
 
-## 👉 [https://<sitename>.netlify.app/](https://apiadresse.netlify.app/)
+## 👉 Deployment-URL: Konfiguriere deine eigene Netlify/Vercel/Render-URL
 
 ## Free APIs Directory
 
@@ -60,7 +60,7 @@ npm install
 npm run dev
 ```
 
-Das Frontend läuft auf `http://localhost:3000`
+Das Frontend läuft auf `http://localhost:3000` (wie in `vite.config.js` konfiguriert)
 
 ## Features
 
@@ -161,17 +161,16 @@ Custom Styles: `frontend/src/index.css`
 - Safari (neueste 2 Versionen)
 
 **Umgebungsvariablen:**
-Für Production solltest du in `frontend/vite.config.js` eine Umgebungsvariable nutzen:
 
-```javascript
-server: {
-  proxy: {
-    '/api': {
-      target: import.meta.env.VITE_API_URL || 'http://localhost:3001',
-    }
-  }
-}
+Lege optional eine Datei `frontend/.env` an:
+
+```bash
+VITE_API_BASE_URL=https://dein-backend.example.com
+VITE_API_PROXY_TARGET=http://localhost:3001
 ```
+
+- `VITE_API_BASE_URL`: Wird im Browser für Requests verwendet (z. B. Render-URL in Production).  
+- `VITE_API_PROXY_TARGET`: Wird nur vom Vite-Dev-Server als Proxy-Ziel genutzt.
 
 ## Lizenz
 
